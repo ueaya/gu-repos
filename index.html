@@ -8,6 +8,9 @@
   <title>NET CHAINA</title><!--title聞く-->
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:100,400,500&display=swap&subset=japanese" rel="stylesheet">
   <link rel="stylesheet" href="https://tomap.co/ZeroPlusReset.css">
+  <!-- swiper css -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
+<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
   <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -24,11 +27,10 @@
       </div>
   
       <div class="header-right flex">
-        <a href="https://bs-story.co.jp/NC/
-        " class="header-link-left"><i class="fas fa-user"></i>無料体験する</a>
+        <a href="https://bs-story.co.jp/NC/" class="header-link-left"><i class="fas fa-user"></i>無料体験する</a>
         <a href="https://bs-story.co.jp/NCQ/" class="header-link-right"><i class="fas fa-envelope"></i>お問合わせ・資料請求</a>
       </div>
-  
+
     </header>
   
     <!-- firstview -->
@@ -62,33 +64,28 @@
       <!-- slide -->
       <section class="slide">
         <h2>先を見ている企業は<span>中国語</span>教育を強化しています!!</h2>
-        
-        <div class="slideshow">
-          <a href="" class="slide-arrow-left"><i class="fas fa-chevron-left"></i></a>
-    
-          <div class="slide-link">
-            <p>伊藤忠　中国語話者が総合職の3割、1000人に到達</p>
-            <a href="https://www.nikkei.com/article/DGXMZO29371330T10C18A4TJ2000/">https://www.nikkei.com/article/DGXMZO29371330T10C18A4TJ2000/</a>
+
+        <!-- Swiper -->
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <p>無料体験</p>
+              <a href="https://bs-story.co.jp/NC/">https://bs-story.co.jp/NC/</a>
+            </div>
+            <div class="swiper-slide">
+              <p>お問合せ、見積もり、資料請求</p>
+              <a href="https://bs-story.co.jp/NCQ/">https://bs-story.co.jp/NCQ/</a>
+            </div>
+            <div class="swiper-slide">
+              <p>教材のご案内</p>
+              <a href="https://www.netchina.jp/textbooks/">https://www.netchina.jp/textbooks/</a>
+            </div>
           </div>
-    
-          <div class="slide-link">
-            <p>無料体験</p>
-            <a href="https://bs-story.co.jp/NC/">https://bs-story.co.jp/NC/</a>
-          </div>
-    
-          <div class="slide-link">
-            <p>お問合せ、見積もり、資料請求</p>
-            <a href="https://bs-story.co.jp/NCQ/">https://bs-story.co.jp/NCQ/</a>
-          </div>
-    
-          <div class="slide-link">
-            <p>教材のご案内</p>
-            <a href="https://www.netchina.jp/textbooks/">https://www.netchina.jp/textbooks/</a>
-          </div>
-    
-          <a href="" class="slide-arrow-right"><i class="fas fa-chevron-right"></i></i></a>
-          
+          <!-- Add Arrows -->
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
         </div>
+
       </section>
       
   
@@ -333,18 +330,17 @@
   
           <p class="price-text-between">より実践的なビジネスパッケージもご用意しています</p>
           <ul>
-            <li> <span>●</span>中級ビジネス会話パッケージ（HSK3級以上の方が対象)<br></li>
-            <li><span>●</span>上級ビジネス会話パッケージ（HSK4級以上の方が対象）</p></li>
+            <li><span>●</span>中級ビジネス会話パッケージ（HSK3級以上の方が対象）</li>
+            <li><span>●</span>上級ビジネス会話パッケージ（HSK4級以上の方が対象）</li>
           </ul>
           
           <div class="order-plan">
             <h3>オーダーメイドプラン例</h3>
             <div class="order-contents flex">
-    
               <div class="order-content flex">
                 <div class="order-content-left">
                   <p class="order-content-bold">1回25分間 マンツーマン</p>
-                  <p class="order-content-smalltext">1日最大レッスン数：<span>1</span>　レッスン数：<span>8コマ/月</span></p>
+                  <p class="order-content-smalltext">1日最大レッスン数：<span>1</span> レッスン数：<span>8コマ/月</span></p>
                 </div>
                 <i class="fas fa-chevron-right"></i>
                 <p class="order-plan-price"><span>￥</span>12,480<span>(月額)</span></p>
@@ -381,17 +377,25 @@
           </div>
         </div>
 
-        <a href="https://bs-story.co.jp/NC/
-        " class="trial-btn-experience"><img src="img/Icon - User.png" alt="人のアイコン">無料体験アカウントの発行</a>
-        <a href="https://bs-story.co.jp/NCQ/" class="trial-btn-contact"><img src="img/Icon - Mail.png" alt="メールのアイコン">お問い合わせ | お見積り</a>
+        <a href="https://bs-story.co.jp/NC/" class="trial-btn-experience">
+          <img src="img/Icon - User.png" alt="人のアイコン">
+          無料体験アカウントの発行
+        </a>
+        <a href="https://bs-story.co.jp/NCQ/" class="trial-btn-contact">
+          <img src="img/Icon - Mail.png" alt="メールのアイコン">
+          お問い合わせ | お見積り
+        </a>
       </section>
   
   
       <!--introduction  -->
       <section class="introduction">
         <img src="img/logo_bbs.png" alt="カラー画像">
-        <p>ネットチャイナの企業向けオンライン中国語研修は
-          『株式会社ビジネス・サクセスストーリー』が販売、運営サポートを行います</p>
+        <p>
+          ネットチャイナの企業向けオンライン中国語研修は
+          『株式会社ビジネス・サクセスストーリー』が販売、
+          運営サポートを行います
+        </p>
   
         <p class="introduction-flow"><span>●</span>導入の流れ</p>
   
@@ -458,4 +462,9 @@
       <p class="copy-right">&copy 2017 Business Success Story Inc. All rights reserved.</p>
     </footer>
   </div>
+
+  <script src="https://unpkg.com/swiper/js/swiper.js"></script>
+  <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
+</html>
