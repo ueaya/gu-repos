@@ -203,6 +203,28 @@ header {
   color: #005DB9;
 }
 
+.swiper-text {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  display: none;
+}
+
+.swiper-btn-right {
+  font-size: 5rem;
+  color: #98A6B5;
+}
+
+.swiper-btn-left {
+  font-size: 5rem;
+  color: #98A6B5;
+}
+
+
+
 /* china */
 .china {
   width: 90%;
