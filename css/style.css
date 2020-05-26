@@ -208,9 +208,16 @@ header {
   font-weight: bold;
 }
 
-.swiper-button-prev:after,
+.swiper-button-prev:after {
+  content: "\f053";
+  font-family: FontAwesome;
+
+}
+
 .swiper-button-next:after {
-  display: none;
+  content: "\f054";
+  font-family: FontAwesome;
+
 }
 
 .swiper-btn-right {
@@ -222,6 +229,8 @@ header {
   font-size: 5rem;
   color: #98A6B5;
 }
+
+
 
 
 
